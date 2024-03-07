@@ -1,0 +1,5 @@
+UDP part has been implemented... but not working yet
+wrong implementation suspected in the recv functions of both client_util.c & server_util.c where buffer is read character by character
+those functions when called automatically assume data has been read and end given no client is connected yet instead of waiting for client to connect and send some data
+
+CRC logic works for some inputs... and fails miserably for others... 
